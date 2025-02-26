@@ -3,4 +3,4 @@
 
 # Name (Please Input your name): Deborah Alain
 
-# Comments: Excused abscene and received extension on assignment
+# Comments: Excused absence and received extension on assignment
