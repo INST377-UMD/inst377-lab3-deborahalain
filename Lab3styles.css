@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(255, 233, 250);
+    font-family: fantasy;
+  }
+  
+  #bar {
+    text-align: center;
+    color: black;
+    background-color: #f8cfa1;
+    margin: 10;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    clear: both;
+  }
+  
+  #main-nav {
+    background-color: rgb(220, 255, 238);
+    text-align: left;
+  }
+  
+  #main-nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #main-nav li:hover {
+    background-color: #00ace0;
+    color: white;
+  }
+  
+  #main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .content-area {
+    width: 70%;
+    float: left;
+    margin: 0;
+  }
+  
+  .content-box {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+  }
+  
+  #sidebar {
+    text-align: left;
+    background-color: lightgoldenrodyellow;
+    float: right;
+    width: 25%;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 30px;
+  }
+
+  #sidebar:hover {
+    background-color: #ca98ea;
+  }
+  
+  .main-container {
+      width: 100%;
+      height: 60%;
+      margin-bottom: 5px;
+  }
+
+  a {
+    text-decoration: none;
+
+  }    
+  
+  #name {
+    width: 100px;
+    transition: width 0.3s ease;
+  }
+
+  #name:focus {
+    width: 300px;
+  }
+
+
+
